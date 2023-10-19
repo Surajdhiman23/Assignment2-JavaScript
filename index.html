@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <!-- Meta tags for character encoding and viewport settings -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Linking the JavaScript file with 'defer' to ensure it's executed after the HTML is parsed -->
+    <script src="js/scripts.js" defer></script>
+
+    <!-- Linking the CSS stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Page title -->
+    <title>Assignment 2 | COMP1073 Client-Side JavaScript</title>
+
+</head>
+
+<body>
+<!-- Container for displaying the student ID -->
+<div>
+    <p id="myStudentId"></p>
+</div>
+
+<!-- Container for input field to accept a number from user -->
+<div>
+    <label for="customNumber">Enter number from 1 to 100:</label>
+    <input id="customNumber" type="number" placeholder="" />
+</div>
+
+<!-- Container for buttons to change the background color -->
+<div>
+    <button class="custColor">Change custom color</button>
+    <button class="randColor">Change random color</button>
+</div>
+
+<!-- Dropdown container for image selection -->
+<div>
+    <label for="imageSelect">Select Image</label>
+    <select id="imageSelect">
+        <option value="">Please choose…</option>
+    </select>
+</div>
+
+<!-- Container to display the selected image -->
+<div>
+    <img id="images" src="" alt="Selected image"></img>
+</div>
+
+</body>
+
+</html>
